@@ -98,8 +98,37 @@ padding: 80px;}
   margin-bottom: 50px;
   border:none ;
 
+  
+   
+  
 
 }
+
+.Facts-container{
+  display: flex;
+justify-content: space-around;}
+  .Facts-container .list{
+    border:1px solid red;
+    text-align: center;
+    padding:30px;
+
+  }
+  .Facts-container.list-num{
+    font-size:2.8 rem;
+    color:#424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .Facts-container.list-des{
+    font-weight: 600;
+    color: #727272;
+    margin-top:20px;
+  }
+
+
+
+
+
  @media screen and (max-width:576px){
   .navbar,.nav-link,.teams{flex-direction: column;}
   .item{ margin:20px;}
