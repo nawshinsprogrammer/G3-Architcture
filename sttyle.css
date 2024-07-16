@@ -56,13 +56,44 @@
   width:100% ;
 }
 
+
+main{
+  max-width:1440;
+  margin: 0 auto;
+}
+
+main > section{
+  margin-top:30px;
+}
+
+.teams {
+  display: flex;
+padding:100px;}
+
+
+
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 24px;
+  margin-left: 120px;
+  
+}
+
+.text-container{
+  margin-left:50px;
+  max-width: 500px;
+
+}
+
 .btn-primary{
   background-color: #FF900E;
   color:white ;
   font-weight: 600;
   font-size: 1.25rem;
   border-radius: 8px;
-  padding: (20px 25px);
+  padding: (30px 40px);
   margin-bottom: 50px;
   border:none ;
 
